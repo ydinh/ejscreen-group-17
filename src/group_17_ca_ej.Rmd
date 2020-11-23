@@ -20,3 +20,19 @@ ces=read.csv(here("data","ces3demographics.csv")) %>%
   clean_names()
 ```
 
+# Create ggplot
+
+
+```{r}
+ggplot(data = ces, aes(x = white, y = ces_3_0_score)) +
+  geom_point() +
+  labs(x = "% White", y = "CalEnviro Pollution Burden Score")
+
+
+```
+
+
+
+
+
+
