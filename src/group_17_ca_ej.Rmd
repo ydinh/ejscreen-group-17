@@ -1,0 +1,11 @@
+---
+title: "Group 17 CA pollution burden"
+author: "Yvonne Dinh and Caitie Reza"
+date: "11/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
